@@ -1,0 +1,80 @@
+/*              media */
+@media (min-width:768px ) and ( max-width: 991px ) {
+    .ch{
+width: 33.3%;
+    }
+    .be{
+width: 33.3%;
+    }
+    .su{  
+width: 33.3%;
+    }
+}
+ @media( min-width:767px)  { 
+    .ch{
+        width: 33.3%;
+            }
+            .be{
+        width: 33.3%;
+            }
+            .su{  
+        width: 33.3%;
+            }
+} 
+
+
+ @media( max-width: 992px ){
+    .ch{
+        width: 33.3%;
+            }
+            .be{
+        width: 33.3%;
+            }
+            .su{  
+        width: 33.3%;
+            }
+            
+}
+
+/* all */
+
+* :not(h1) { 
+    float: right;
+}
+/* h1 */
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+/* box */
+
+.box {
+    border: 2px solid rgb(7, 7, 7);
+    padding: 10px;
+    margin: 15px;
+}
+/* content */
+
+.be,
+.su,
+.ch {
+    border: 2px solid black;
+    float: right;
+    margin-left: 70%;
+    margin-top: 2px;
+    font-size: 40px;
+}
+.ch{
+    background-color: rgb(228, 134, 134);
+}
+.be{
+    background-color: red;
+}
+.su{
+    background-color: darkgoldenrod;
+}
+.col-md-4{
+    font-size: large;
+    
+}
